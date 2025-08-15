@@ -135,19 +135,19 @@ export default function RoboticsCore() {
       {/* Tutor Images */}
       <div className="mt-8">
         <Image
-          src="/Bakel.jpeg"
+          src="/image/Bakel.jpeg"
           alt="Bakel"
-          width={72}
-          height={72}
-          className="mx-auto mb-4 rounded-full"
+          width={100}
+          height={100}
+          className="mx-auto w-[350px] mb-4"
           priority
         />
         <Image
-          src="/bakel.jpeg"
+          src="/image/AmBakel.jpeg"
           alt="Bakel"
-          width={72}
-          height={72}
-          className="mx-auto mb-4 rounded-full"
+          width={100}
+          height={100}
+          className="mx-auto w-[350px]  mb-4"
           priority
         />
       </div>
@@ -161,7 +161,7 @@ export default function RoboticsCore() {
         </div>
         <div>
           <Image
-            src="/Lessonplan.jpeg"
+            src="/image/plan.jpeg"
             alt="Lesson Plan"
             width={500}
             height={300}
