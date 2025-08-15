@@ -137,8 +137,8 @@ export default function RoboticsCore() {
         <Image
           src="/image/Bakel.jpeg"
           alt="Bakel"
-          width={350}
-          height={350}
+          width={600}
+          height={600}
           className="mx-auto mb-4"
           priority
           quality={100}
@@ -146,8 +146,8 @@ export default function RoboticsCore() {
         <Image
           src="/image/AmBakel.jpeg"
           alt="Bakel"
-          width={350}
-          height={350}
+          width={600}
+          height={600}
           className="mx-auto mb-4"
           priority
           quality={100}
@@ -165,8 +165,8 @@ export default function RoboticsCore() {
           <Image
             src="/image/plan.jpeg"
             alt="Lesson Plan"
-            width={500}
-            height={300}
+            width={600}
+            height={600}
             className="mx-auto mb-6 rounded-lg"
             priority
           />
