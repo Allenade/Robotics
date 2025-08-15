@@ -137,18 +137,20 @@ export default function RoboticsCore() {
         <Image
           src="/image/Bakel.jpeg"
           alt="Bakel"
-          width={100}
-          height={100}
-          className="mx-auto w-[350px] mb-4"
+          width={350}
+          height={350}
+          className="mx-auto mb-4"
           priority
+          quality={100}
         />
         <Image
           src="/image/AmBakel.jpeg"
           alt="Bakel"
-          width={100}
-          height={100}
-          className="mx-auto w-[350px]  mb-4"
+          width={350}
+          height={350}
+          className="mx-auto mb-4"
           priority
+          quality={100}
         />
       </div>
 
