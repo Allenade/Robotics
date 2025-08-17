@@ -32,6 +32,17 @@ export default function RoboticsCore() {
       </div>
 
       {/* Certificate Info */}
+      <div className="mb-3">
+        {" "}
+        <a
+          href="https://www.regaliamarine.com/aurora-robotics-training"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition"
+        >
+          Register Now
+        </a>
+      </div>
       <h2 className="text-2xl py-5 font-bold text-gray-900">
         A Certificate of Training certified by:
       </h2>
@@ -131,14 +142,14 @@ export default function RoboticsCore() {
       {/* About the Tutor */}
       <h2 className="text-2xl py-5 font-bold text-gray-900">About The Tutor</h2>
       <div className="flex flex-wrap gap-4 mt-4">
-        <a
+        {/* <a
           href="https://www.regaliamarine.com/aurora-robotics-training"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition"
         >
           Register Now
-        </a>
+        </a> */}
         <a
           href="https://www.linkedin.com/in/bakel-bakel-6341a7150/"
           target="_blank"
