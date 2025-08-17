@@ -40,7 +40,32 @@ export default function RoboticsCore() {
         <li>Volts Technologies, Kuwait 🇰🇼</li>
         <li>Regalia Marine, Nigeria 🇳🇬</li>
       </ul>
-
+      <div className="py-8">
+        <div className="bg-slate-200 rounded-lg aspect-video mb-6 flex items-center justify-center">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/akZKYqUCX-g"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full rounded-lg"
+          ></iframe>
+        </div>
+        <div className="bg-slate-200 rounded-lg aspect-video mb-6 flex items-center justify-center">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/UL35D3-UU38"
+            title="Overview of Aurora Workshop and an Introduction to Robotics"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full rounded-lg"
+          ></iframe>
+        </div>
+      </div>
       {/* Workshop Benefits */}
       <h2 className="text-2xl py-5 font-bold text-gray-900">
         At the end of the workshop, you’ll have:
