@@ -31,6 +31,20 @@ export default function RoboticsCore() {
         </div>
       </div>
 
+      {/* Additional Video */}
+      <div className="py-8">
+        <div className="bg-slate-200 rounded-lg aspect-video mb-6 flex items-center justify-center">
+          <iframe
+            src="https://www.youtube.com/embed/IXkAfFwYnIc"
+            title="Additional Robotics Content"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full rounded-lg"
+          />
+        </div>
+      </div>
+
       {/* Certificate Info */}
       <div className="mb-3">
         {" "}
@@ -42,6 +56,20 @@ export default function RoboticsCore() {
         >
           Register Now
         </a>
+      </div>
+      <div className="py-8">
+        <div className="bg-slate-200 rounded-lg aspect-video mb-6 flex items-center justify-center">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/akZKYqUCX-g"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full rounded-lg"
+          ></iframe>
+        </div>
       </div>
       <h2 className="text-2xl py-5 font-bold text-gray-900">
         A Certificate of Training certified by:
